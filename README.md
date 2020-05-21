@@ -15,7 +15,7 @@ user_posts = client.getPost('ray.en_king', limit=5)
 print(user_posts)
 ```
 
-## Example with login
+## Example usage with login
 ```python
 from InstaScraper import *
 client = InstaScraper()
