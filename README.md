@@ -11,7 +11,7 @@ python setup.py install
 ```python
 from InstaScraper import *
 client = InstaScraper()
-user_posts = client.getPost('ray.en_king', limit=5)
+user_posts = client.getPost('ray.en_king', count=5)
 print(user_posts)
 ```
 
